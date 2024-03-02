@@ -12,7 +12,7 @@ The motivation behind this initiative is to address the challenge of finding pas
 
 ## How to Contribute
 
-We welcome contributions from students who are willing to share past year questions from additional courses. If you have taken a course and possess the past year papers, feel free to contribute by following these steps:
+I welcome contributions from students who are willing to share past year questions from additional courses. If you have taken a course and possess the past year papers, feel free to contribute by following these steps:
 
 1. Fork the repository.
 2. Create a new branch for your contributions.
@@ -21,10 +21,6 @@ We welcome contributions from students who are willing to share past year questi
 
 Let's work together to build a comprehensive collection of past year questions!
 Feel free to explore the existing directories and papers. If you cannot find a specific course, consider contributing to fill the gap!
-
-## Disclaimer
-
-Please ensure that the sharing of past year questions aligns with your institution's policies and ethical standards. Respect academic integrity and avoid sharing solutions or any content that violates academic honesty.
 
 ## Contact
 If you have any questions, suggestions, or concerns, feel free to open an issue or contact me.
