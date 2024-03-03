@@ -1,6 +1,7 @@
 # IIITD Past Year Questions Repository
 
 Welcome to the IIITD Past Year Questions (IIITD-PYQs) repository! 📚
+[Course Sheet](https://docs.google.com/spreadsheets/d/1zzMJGNCGggm3CUw2TMCuYfkE6JWEZ1oaJqio-3WGuxQ/edit?usp=sharing)
 
 ## Introduction
 
