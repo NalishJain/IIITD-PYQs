@@ -1,0 +1,5 @@
+Satish Kumar Pandey  Dec 19, 2022
+
+Update: There is a little typo in the solution to Question 6. In Step 4, the limits for "u" must be from 1 to 2 (in the second and third equality).
+
+However, the answer that you will get after computation of this triple integral while keeping the limits of the variable "u" from 1 to 2, is 2 + ln 8.; that part is not incorrect.
