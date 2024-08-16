@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin22-g++-13 -I\"/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/src\" -I\"/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/depends/imgui\" -F/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -F/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/System/Library/Frameworks  -o CMakeFiles/lab0.dir/src/main.cpp.o -c \"/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/src/main.cpp\"",
+  "file": "/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/src/main.cpp",
+  "output": "CMakeFiles/lab0.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin22-g++-13 -I\"/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/src\" -I\"/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/depends/imgui\" -F/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -F/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/System/Library/Frameworks  -o CMakeFiles/lab0.dir/src/utils.cpp.o -c \"/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/src/utils.cpp\"",
+  "file": "/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/src/utils.cpp",
+  "output": "CMakeFiles/lab0.dir/src/utils.cpp.o"
+},
+{
+  "directory": "/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin22-g++-13 -I\"/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/src\" -I\"/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/depends/imgui\" -F/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -F/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/System/Library/Frameworks  -o CMakeFiles/lab0.dir/depends/imgui/imgui_impl_glfw.cpp.o -c \"/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/depends/imgui/imgui_impl_glfw.cpp\"",
+  "file": "/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/depends/imgui/imgui_impl_glfw.cpp",
+  "output": "CMakeFiles/lab0.dir/depends/imgui/imgui_impl_glfw.cpp.o"
+},
+{
+  "directory": "/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin22-g++-13 -I\"/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/src\" -I\"/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/depends/imgui\" -F/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -F/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/System/Library/Frameworks  -o CMakeFiles/lab0.dir/depends/imgui/imgui_impl_opengl3.cpp.o -c \"/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/depends/imgui/imgui_impl_opengl3.cpp\"",
+  "file": "/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/depends/imgui/imgui_impl_opengl3.cpp",
+  "output": "CMakeFiles/lab0.dir/depends/imgui/imgui_impl_opengl3.cpp.o"
+},
+{
+  "directory": "/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin22-g++-13 -I\"/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/src\" -I\"/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/depends/imgui\" -F/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -F/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/System/Library/Frameworks  -o CMakeFiles/lab0.dir/depends/imgui/imgui.cpp.o -c \"/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/depends/imgui/imgui.cpp\"",
+  "file": "/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/depends/imgui/imgui.cpp",
+  "output": "CMakeFiles/lab0.dir/depends/imgui/imgui.cpp.o"
+},
+{
+  "directory": "/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin22-g++-13 -I\"/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/src\" -I\"/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/depends/imgui\" -F/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -F/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/System/Library/Frameworks  -o CMakeFiles/lab0.dir/depends/imgui/imgui_demo.cpp.o -c \"/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/depends/imgui/imgui_demo.cpp\"",
+  "file": "/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/depends/imgui/imgui_demo.cpp",
+  "output": "CMakeFiles/lab0.dir/depends/imgui/imgui_demo.cpp.o"
+},
+{
+  "directory": "/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin22-g++-13 -I\"/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/src\" -I\"/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/depends/imgui\" -F/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -F/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/System/Library/Frameworks  -o CMakeFiles/lab0.dir/depends/imgui/imgui_draw.cpp.o -c \"/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/depends/imgui/imgui_draw.cpp\"",
+  "file": "/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/depends/imgui/imgui_draw.cpp",
+  "output": "CMakeFiles/lab0.dir/depends/imgui/imgui_draw.cpp.o"
+},
+{
+  "directory": "/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin22-g++-13 -I\"/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/src\" -I\"/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/depends/imgui\" -F/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -F/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/System/Library/Frameworks  -o CMakeFiles/lab0.dir/depends/imgui/imgui_widgets.cpp.o -c \"/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/depends/imgui/imgui_widgets.cpp\"",
+  "file": "/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/depends/imgui/imgui_widgets.cpp",
+  "output": "CMakeFiles/lab0.dir/depends/imgui/imgui_widgets.cpp.o"
+}
+]

@@ -1,0 +1,3 @@
+/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/CMakeFiles/lab0.dir
+/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/CMakeFiles/edit_cache.dir
+/Users/Atharv/Documents/uni/Semester 5/CSE333 - Computer Graphics [CG]/Labs/lab0/CMakeFiles/rebuild_cache.dir
