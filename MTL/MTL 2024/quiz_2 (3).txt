@@ -1,0 +1,40 @@
+Meta-learning Course 
+
+Quiz 2: NALISH  JAIN  nalish21543@iiitd.ac.in 
+
+1. The term System-1 inference refers to direct prediction via a trained/adapted neural network whereas System-2 inference typically refers to a neuro-symbolic approach to reasoning. Which of the following do you agree with:
+
+ (a) System-1 involves more costly inference than System-2 False
+
+✓(b) System-2 involves more costly inference than System-1 True
+
+✓(c) System-1 involves more training cost than System-2 True
+
+ (d) System 2 involves more training cost than System-1 False
+
+Score: 5.0
+
+2. Which of the following statements regarding "model stacking":
+
+ (a) Stacking is the same as adding more layers to a deep neural network False
+
+✓(b) Stacking uses the predictions of one model as features for another model True
+
+✓(c) Stacking is a form of ensemble learning related to bagging False
+
+✓(d) Stacking is a form of ensemble learning related to boosting True
+
+Score: 2.5
+
+3. What would you agree with regarding a language model trained using next-token prediction vs one trained using a meta-learning objective:
+
+ (a) A model training using next-token prediction is always better than one trained using meta-learning. False
+
+ (b) A model training using next-token prediction is always worse than one trained using meta-learning False
+
+✓(c) The behaviour of a model trained using next-toke prediction relies on in-context learning for few-shot tasks True
+
+ (d) The behaviour of a model trained using a meta-learning objective is exactly equivalent to applying one-step of gradient descent on few-shot examples False
+
+Score: 5.0
+

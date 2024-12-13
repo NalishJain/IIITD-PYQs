@@ -1,0 +1,72 @@
+Meta-learning Course 
+
+Mid Term: NALISH  JAIN  nalish21543@iiitd.ac.in 
+
+1. Which of the following do you agree with?
+
+✓(a) Meta-learning techniques can be used for few-shot learning True
+
+✓(b) Meta-learning techniques can be used to deal with concept-drift True
+
+ (c) Meta-learning always generalises better than traditional machine-learning False
+
+ (d) Meta-learning techniques always require second-order gradients False
+
+Score: 5.0
+
+2. (a) Explain the key idea of, and differences between metric-based, model-based or optimisation-based meta-learning. Classify each of the following techniques as examples of one of these types of meta-learning, also explaining why: (b) TabPFN (c) MotherNet (d) Super-masks (e) Meta-learning with Heterogeneous Attribute Spaces.
+
+In metric based learning our goal is to learn a metric using the support set for a task, like we learn the distance metric in Matching Networks 
+In model based meta learning the goal is to encode the support set into a representation and learn how to use the representation for solving tasks. For example in CNPs we condition the model on the support set. 
+In optimization-based meta learning we try to learn an initialization of parameters which can be fine-tuned for new tasks. The idea is to use gradient descent on the support set and then minimise the expected test era. It involves double derivatives. 
+
+TabPFN, MotherNet and Meta-learning with Heterogeneous Attribute Spaces are model based meta learning technique as we adapt for new tasks using the support set that is we learn how to use the encoded information in the support set to solve unseen tasks, no metric is learned or no optimization is done on the support set.
+
+Super-masks can be considered as metric learning where our goal is to learn a mask for the Neural network that will perform well on the tasks. That is mask can be considered as metric
+
+
+
+Evaluation:
+2/2 marks: clarity in explaining the key ideas behind each meta-learning technique:
+2/2 marks: whether b,c,d,e are correctly classified (.5,.5,.5.5 marks each)
+1/1 mark: clarity in explaining the reason behind each (.25 marks each): ok
+Score:5
+
+3. A chain of grocery stores has data on weekly sales for m of different food items from k different cities. You are tasked with forecasting sales for the next four weeks for each item. (a) How would you formulate this task as a machine-learning problem (b) Why might you consider using meta-learning techniques in this scenario (c) Suggest a meta-learning technique that you might decide to try, along with an outline of how you would formulate tasks, meta-training and meta-testing for this problem.
+
+a) As a machine learning problem I would formulate this as a regression problem where my data will have the following feature set
+Week Number 
+Food Item Name
+City Name
+Sale in that week for that item in the given city
+The target will be the sales of the respective item from that city for the next four weeks
+
+b) We can consider this problem in meta learning scenarios as correlation between target and and features may change from week to week resulting in data from different distributions which makes it challenging for normal machine learning techniques.
+
+I would like to use CNP (conditional neural process) to solve this problem where my task will be predicting the sale of the food item i from the city j in for the next four weeks.  I will be using the past 4 weeks data to predict the demand of the next week. That is during meta training my dtrain will be sale's for the food item i from city j for last the four weeks and my dtest will consist the data of the next week. I will form the dtrain and dtest sequentially in this order. I will hold out a few weeks from the end for meta-testing purpose.
+
+An example in meta training would look like this 
+ [Present Week Number, City Name, Food Item,  Sales in past four weeks upto present week] -> feature set , [Sales in next four weeks], (a coulmn of 4 as targets)
+
+The meta-testing will involve the data of last four weeks from the present time and their predictions will be checked when their actual labels come hence there will be a four week lag
+
+
+Evaluation:
+.75/1.5 marks: correctness of the machine-learning formulation and rationale applied: why week number, city and item name are features; how are the latter encoded? How many targets, one or 4? How is historical sales data handled?
+1/1.5 marks: appropriateness of meta-learning technique chosen and rationale applied: why only use past 4 weeks data? How would ids such as week number, city name, and item name give information to the model unless an LLM is used - if so why not indicate, if not, why use these?
+1/2 marks: clarity and correctness of the formulation of tasks and meta-training procedure
+Score:2.75
+
+4. You have been asked to add the following feature to a spreadsheet tool: Suppose a sheet has two numeric columns A and B, and say there are N rows filled with values for A and B. Now the user enters numbers in column C for the first 4 rows; your feature should attempt to automatically fill the value of column C for all the remaining N-4 rows. (a) How would you approach and model this problem based on what you have learned in class? (b) Which technique that we have covered in class might be applicable and why? (c) Give an brief outline what your solution might look like.
+
+a) This problem can be modelled as few shot learning task where we are given 4 examples in the support set and our goal is to solve the task using the support set for all the N-4 rows. The features are column A and B and the target will be column C and task is to predict column C for the given features with the help of the provided support set.
+b) Since we don't have enough tasks to train a model from scratch I would like to use the MotherNet model as it uses pre-trained TABPFN model for generating weights of the neural network and have proven to be very efficient on unseen tasks. Moreover inference will be faster. 
+c) We will provide the support set containing the first four rows of the spreadsheet and generate a neural network which will be then used for prediction on the remaining N-4 rows.
+
+
+Evaluation:
+1.5/2 marks appropriateness of formulation: regression or classification? where will the training data come from?
+1.25/1.5 marks: completeness of description: ok but will the pre-trained TabPFN/motherNet be appropriate, or should you also generate synthetic tasks to fine-tune?
+1.5/1.5 marks: correctness and completeness with which the chosen approach has been outlined: architectures of these methods should have been mentioned.
+Score:4.25
+

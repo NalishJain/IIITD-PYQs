@@ -1,0 +1,40 @@
+Meta-learning Course 
+
+Quiz 3: NALISH  JAIN  nalish21543@iiitd.ac.in 
+
+1. Given a set of tasks, each having a training set D_train and a test set D_test, which of the following procedures would you characterise as meta-learning?
+
+ (a) Optimising a network p(Y_train|X_train) to minimise loss on D_train across all tasks. False
+
+ (b) Optimising a network p(Y_train|X_train, D_test) to minimise loss on D_train across all tasks. False
+
+✓(c) Optimising a network p(Y_test|X_test, D_train)to minimise loss on D_test across all tasks. True
+
+ (d) Optimising a network p(Y_test|X_test)to minimise loss on D_test across all tasks. False
+
+Score: 5.0
+
+2. Given a task with a training examples D_train and a test set D_test which of the following procedures would you characterise as test-time adaptation?
+
+✓(a) Fine-tuning a network p(Y_train|X_train) to minimise loss on D_test. False
+
+ (b) Fine-tuning a network p(Y_test|X_train,Y_train,X_test) to minimise loss on D_test. False
+
+✓(c) Fine-tuning a network p(Y_train,X_test|X_train,X_test) to minimise reconstruction loss on X_test. True
+
+✓(d) Fine-tuning a network p(Y_train|X_train) to minimise entropy of p(Y_test|X_test). True
+
+Score: 2.5
+
+3. Which of the following do you agree with?
+
+✓(a) Inference using MotherNet is more efficient than TabPFN given a large number of test samples to predict on. True
+
+ (b) MotherNet always involves more costly inference than TabPFN since it needs to generate parameters of a network at test time. False
+
+ (c) In-context learning in LLMs exhibits properties similar (but not identical) to some meta-learning techniques. True
+
+✓(d) In-context learning in LLMs is a form of test-time adaptation. False
+
+Score: 0.0
+

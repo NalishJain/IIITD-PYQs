@@ -1,0 +1,40 @@
+Meta-learning Course 
+
+Quiz 1: NALISH  JAIN  nalish21543@iiitd.ac.in 
+
+Q1. Which of the following are considered to be 'core knowledge priors' required to solve ARC tasks, as in the paper "Measure of Intelligence"?
+
+✓(a) "Objectness", i.e., objects as cohesive entities that persist and may or may not be in contact with each other. True
+
+ (b) The ability to write computer programs that can transform an input grid to the desired output grid. False
+
+✓(c) Numbers and counting, including sorting colours, objects etc. by size, frequency etc. True
+
+✓(d) Geometry and topology, i.e., basic shapes, inside or outside shape, symmetries, being connected vs separate, scaling etc. True
+
+Score: 5.0
+
+Q2. Which of the following statements regarding traditional meta-learning algorithms are correct?
+
+✓(a) Matching networks learn a distance metric while being meta-trained over many tasks. True
+
+ (b) MAML and CNPs both learn 'the learning procedure' itself and encode this in their weights during meta-training. False
+
+✓(c) Optimisation-based meta-learning only learns a good initialisation using which a network can rapidly be fine-tuned for a new few-shot task. True
+
+✓(d) Full-context embeddings of the support set are/can be used in both CNPs as well as matching networks. True
+
+Score: 5.0
+
+Q3. Which of the scenarios are traditional math-learning techniques well suited for:
+
+✓(a) Few-shot learning where each task is a classification tasks comprising of a few examples from each class though the classes may differ from task to task. True
+
+ (b) Few-shot learning where each tasks comprises of a few examples though the number of features as well as nature each task is different every time, i.e., classification, regression etc. False
+
+ (c) Few-shot learning where each task involves a few training examples of generating an output for a given input, and task is to analogously generate the correct output for a test input. False
+
+✓(d) Few-shot learning where each task involves predicting an output variable, e.g., a forecast, given input  features from the same domain (e.g. fixed-size images or fixed-dimension time-series), but the distribution relating outputs to inputs changes from task to task. True
+
+Score: 5.0
+
