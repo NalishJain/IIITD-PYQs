@@ -1,0 +1,71 @@
+🔥 Literature Review with Abstracts + Paper Titles
+1. QuILT Tutorial
+Paper Title: Investigating and Improving Student Understanding of the Basics of Quantum Computing
+Abstract (Short Summary):
+This paper discusses the creation and validation of a Quantum Interactive Learning Tutorial (QuILT) aimed at improving students’ understanding of quantum computing basics like single-qubit systems, multi-qubit systems, and quantum gates.
+
+The tutorial used inquiry-based learning methods.
+
+Students initially had major misconceptions after lectures alone.
+
+Using QuILT helped students significantly improve their conceptual understanding.
+
+Focused on scaffolding student learning using cognitive task analysis.
+
+Link to paper
+
+2. VR Wave-Particle Duality
+Paper Title: Application of Virtual Reality in Learning Quantum Mechanics
+Abstract (Short Summary):
+This study explored using Virtual Reality to teach wave–particle duality.
+
+VR modules let students interactively "see" quantum phenomena like electron and photon behavior.
+
+Compared to textbook learning, VR learners showed higher understanding, higher motivation, and lower cognitive load.
+
+VR made abstract quantum concepts easier to grasp for high school students.
+
+Link to paper
+
+3. Gamified Tools
+Paper Title: Quantum Games and Interactive Tools for Quantum Technologies Outreach and Education
+Abstract (Short Summary):
+This article presents a wide range of quantum learning games and interactive educational tools like:
+
+Hello Quantum, Hello Qiskit, Quantum Odyssey, ScienceAtHome.
+
+It also discussed events like quantum game hackathons and jams.
+
+Focus: Gamification can significantly improve engagement and understanding of quantum topics.
+
+Provided guidelines for integrating games into quantum education.
+
+Link to paper
+
+4. Hands-on Kits
+Paper Title: From Computing to Quantum Mechanics: Accessible and Hands-On Quantum Computing Education for High School Students
+Abstract (Short Summary):
+This paper outlined a hands-on approach to teaching quantum computing using portable NMR quantum computers.
+
+Focused on high school students with little background in advanced math or physics.
+
+Used classical computing basics first, then gradually introduced quantum mechanics.
+
+Early tests showed positive feedback and strong potential for broader education programs.
+
+Link to paper
+
+5. AI Learning (QuantumAiEd)
+Paper Title: Enhancing Early Quantum Computing Education with QuantumAiEd: Bridging the Educational Gap
+Abstract (Short Summary):
+QuantumAiEd is an AI-driven personalized platform for quantum computing education.
+
+It adapts learning material dynamically based on student needs.
+
+Combines AI-generated content, quizzes, feedback.
+
+Early results showed better understanding, higher engagement, and positive user experience among high school and undergrad students.
+
+It aims to democratize quantum education for diverse learners.
+
+Link to paper
