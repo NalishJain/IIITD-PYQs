@@ -2,6 +2,8 @@
 
 Welcome to the IIITD Past Year Questions (IIITD-PYQs) repository! 📚
 [Course Sheet](https://docs.google.com/spreadsheets/d/1zzMJGNCGggm3CUw2TMCuYfkE6JWEZ1oaJqio-3WGuxQ/edit?usp=sharing)
+### Student-Friendly PYQ Browser
+[Browse IIITD PYQs](https://pyq-iiitd.web.app/) — Search and browse the existing PYQ collection through a dedicated web interface.
 
 ## Introduction
 
